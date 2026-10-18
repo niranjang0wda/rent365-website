@@ -1,0 +1,18 @@
+# Rent 365
+
+> Rent 365 is an Android app for house owners and landlords in India. It tracks properties, units, tenants and monthly rent, sends PDF receipts and invoices to tenants on WhatsApp, adds electricity and water meter readings and shared repair costs to bills, carries advances and dues forward, and backs up to the user's own Google Drive. Free for one property; Pro costs ₹60 a month or ₹600 a year.
+
+## Pages
+- [Home](https://SITE_URL/): overview of the app
+- [Features](https://SITE_URL/features): every feature, grouped
+- [Pricing](https://SITE_URL/pricing): Free vs Pro (₹60/month or ₹600/year)
+- [Help centre](https://SITE_URL/help): answers to common questions
+- [About](https://SITE_URL/about): who makes Rent 365 and how to contact us
+- [Privacy policy](https://SITE_URL/privacy)
+- [Terms of service](https://SITE_URL/terms)
+
+## Get the app
+- [Google Play](https://play.google.com/store/apps/details?id=com.ncaps.rent365)
+
+## Contact
+- niranjanvevo@gmail.com
