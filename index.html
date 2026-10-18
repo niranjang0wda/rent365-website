@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rent 365 – Rent manager for house owners</title>
+<meta name="description" content="Track tenants, rent, repairs and receipts for all your rental properties in one simple Android app.">
+<link rel="icon" href="/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<meta property="og:title" content="Rent 365 – Rent manager for house owners">
+<meta property="og:description" content="Tenants, rent, repairs and receipts for all your properties, on your phone.">
+<meta property="og:image" content="/img/icon.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/img/icon.png" alt="" width="38" height="38"><span class="brand-name">Rent <em>365</em></span></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#plans">Plans</a>
+      <a href="/privacy">Privacy</a>
+      <a class="btn btn-primary btn-small" href="https://play.google.com/store/apps/details?id=com.ncaps.rent365">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Every house.<br>Every rent.<br>One calm ledger.</h1>
+        <p class="lead">Rent 365 keeps track of tenants, monthly rent, repairs and receipts for all your properties, right on your phone. See who has paid in seconds.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.ncaps.rent365">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4 2.8v18.4c0 .5.5.8 1 .6l15.6-8.9c.5-.3.5-1 0-1.3L5 2.2c-.5-.2-1 .1-1 .6z"/></svg>
+            Get it on Google Play
+          </a>
+          <span class="note">Free for one property</span>
+        </div>
+      </div>
+
+      <div class="stage" aria-label="Example rent ledger for October">
+        <img class="phone" src="/img/dashboard.webp" alt="Rent 365 home screen showing rent collected this month" width="420" height="874">
+        <div class="ledger" id="ledger">
+          <div class="ledger-head">
+            <div class="month">October 2026 rent</div>
+            <div class="total"><span id="collected">₹62,000</span> <span class="of">of ₹84,000</span></div>
+            <div class="bar"><i id="bar"></i></div>
+          </div>
+          <ul>
+            <li><span class="av" style="background:#E0F5E5;color:#0B6B33">RS</span><span class="who"><b>Rahul Sharma</b><small>Green Villa</small></span><span class="amt">₹28,000<br><span class="chip paid">Paid</span></span></li>
+            <li><span class="av" style="background:#E7EEFF;color:#1243B8">PN</span><span class="who"><b>Priya Nair</b><small>Lake View House</small></span><span class="amt">₹22,000<br><span class="chip due" data-amount="22000">Due 5 Oct</span></span></li>
+            <li><span class="av" style="background:#FDF1DC;color:#8A4F00">SR</span><span class="who"><b>Sneha Reddy</b><small>Palm Residency</small></span><span class="amt">₹18,000<br><span class="chip paid">Paid</span></span></li>
+            <li><span class="av" style="background:#E9ECF1;color:#3A4453">VI</span><span class="who"><b>Vikram Iyer</b><small>Palm Residency</small></span><span class="amt">₹16,000<br><span class="chip paid">Paid</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="wrap">
+      <h2 class="section-title">Built for owners with more than one house</h2>
+      <p class="section-intro">Houses, flats, villas and duplexes, with each floor or unit rented separately. Everything a landlord tracks in a notebook, without the notebook.</p>
+
+      <div class="feature">
+        <div>
+          <h3>Rent, bills and balances in one place</h3>
+          <p>A monthly ledger shows paid, pending and overdue rent for every tenant. Record UPI, cash, bank or cheque payments in a few taps.</p>
+          <ul>
+            <li>Partial payments, late fees and advances that carry to the next bill</li>
+            <li>Electricity and water readings added to each tenant's bill</li>
+            <li>Scheduled rent increases on lease renewal</li>
+          </ul>
+        </div>
+        <div class="feature-media"><img src="/img/rent.webp" alt="Rent ledger with paid, pending and overdue tenants" loading="lazy" width="420" height="874"></div>
+      </div>
+
+      <div class="feature">
+        <div>
+          <h3>Split a repair between tenants</h3>
+          <p>Sump cleaning cost ₹1,000? Choose who shares it, split it equally or set your own share, and each tenant's part is added to their next bill automatically.</p>
+          <ul>
+            <li>Works for repairs and any expense, like society maintenance</li>
+            <li>Your share and the tenants' share are always shown</li>
+          </ul>
+        </div>
+        <div class="feature-media"><img src="/img/split.webp" alt="Repair cost split between three tenants and the owner" loading="lazy" width="420" height="874"></div>
+      </div>
+
+      <div class="feature">
+        <div>
+          <h3>Receipts and invoices on WhatsApp</h3>
+          <p>Send a PDF rent receipt the moment rent arrives, or an invoice before the due date. Tenants get a clear bill with every charge listed.</p>
+          <ul>
+            <li>PDF receipts and invoices, free</li>
+            <li>Printable A4 To-let posters for vacant units</li>
+          </ul>
+        </div>
+        <div class="feature-media"><img src="/img/receipt.webp" alt="Rent receipt ready to send on WhatsApp" loading="lazy" width="420" height="874"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 class="section-title">Also in Rent 365</h2>
+      <ul class="also">
+        <li><b>Reminders</b><span>Overdue rent, upcoming dues, lease endings and invoice reminders.</span></li>
+        <li><b>Calendar</b><span>Due dates, lease ends, repairs and rent increases on one monthly view.</span></li>
+        <li><b>Deposit settlement</b><span>List deductions at move-out and share a settlement statement.</span></li>
+        <li><b>Reports</b><span>Income, expenses, profit and occupancy, with Excel export.</span></li>
+        <li><b>Rent agreements</b><span>Fill in a few details and get an agreement PDF to print.</span></li>
+        <li><b>Backups</b><span>Save a backup file or keep copies in your own Google Drive.</span></li>
+        <li><b>App lock</b><span>Protect tenant details with a PIN or fingerprint.</span></li>
+        <li><b>Expenses</b><span>Property tax, repairs, utilities and society fees per property.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2>Your records stay on your phone</h2>
+          <p>Rent 365 has no account to create and no server holding your data. Tenant details, rent and payments are stored only on your device, and backups go to places you choose.</p>
+          <a href="/privacy">Read the privacy policy</a>
+        </div>
+        <dl>
+          <dt>No sign-up</dt><dd>Open the app and add your first property.</dd>
+          <dt>Your own Google Drive</dt><dd>Backups sit in a hidden folder only Rent 365 can open.</dd>
+          <dt>App lock</dt><dd>PIN and fingerprint keep other people out.</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="plans">
+    <div class="wrap">
+      <h2 class="section-title">Start free, upgrade when you grow</h2>
+      <p class="section-intro">Pro is a monthly or yearly subscription through Google Play. Prices are shown in the app in your local currency.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <p class="price">For one property</p>
+          <ul>
+            <li>One property with any number of units and tenants</li>
+            <li>Rent ledger, receipts and invoices</li>
+            <li>Reminders, calendar and backups</li>
+            <li>Includes ads and needs an internet connection</li>
+          </ul>
+        </div>
+        <div class="plan pro">
+          <h3>Pro</h3>
+          <p class="price">Monthly or yearly</p>
+          <ul>
+            <li>Unlimited properties</li>
+            <li>No ads, and works offline</li>
+            <li>Reports, yearly income summary and Excel export</li>
+            <li>Rent agreements and automatic Google Drive backup</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="copy">© 2026 Niranjan V. Rent 365 for Android.</span>
+    <a href="/privacy">Privacy policy</a>
+    <a href="/terms">Terms of service</a>
+    <a href="mailto:niranjanvevo@gmail.com">Contact</a>
+    <a href="https://play.google.com/store/apps/details?id=com.ncaps.rent365">Google Play</a>
+  </div>
+</footer>
+
+<script>
+// One moment of motion: pending rent turns to "Paid" and the total fills up.
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var due = Array.prototype.slice.call(document.querySelectorAll('#ledger .chip.due'));
+  var collectedEl = document.getElementById('collected');
+  var bar = document.getElementById('bar');
+  var collected = 62000, expected = 84000;
+  function fmt(n) { return '₹' + n.toLocaleString('en-IN'); }
+  function settle(chip) {
+    chip.classList.remove('due'); chip.classList.add('paid', 'pop'); chip.textContent = 'Paid';
+    collected += Number(chip.getAttribute('data-amount'));
+    collectedEl.textContent = fmt(collected);
+    bar.style.width = Math.round(collected / expected * 100) + '%';
+  }
+  if (reduce) { due.forEach(settle); return; }
+  due.forEach(function (chip, i) { setTimeout(function () { settle(chip); }, 1400 + i * 900); });
+})();
+</script>
+</body>
+</html>
